@@ -9,3 +9,7 @@ def products(request):
 
 def shops(request):
     return render(request, 'shops.html')
+
+def abouts(request):
+    return render(request, 'abouts.html')
+

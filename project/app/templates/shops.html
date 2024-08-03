@@ -2,8 +2,9 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <!-- Required meta tags  bc3-->
+  <!-- Required meta tags  bc3-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,60 +14,68 @@
 
   <title>Hello, world!</title>
 </head>
+
 <body>
-    {% block content %}
+  {% block content %}
 
 
-    <div class="card bg-dark text-white" >
-        <img src="{% static 'minimog/new4.jpg' %}" class="card-img" height="600px" width="100%" alt="...">
-        <div class="card-img-overlay" style="text-align: right;margin-top: 90px;margin-right: 100px;color: rgb(19, 18, 18);">
-          <h1 class="card-title">MIRROR SHOW YOUR <br> TRUE SELF</h1>
-          <p class="card-text" style="font-size: 23px;">We create the design that you <br> dream of and make it alive</p>
-         
-        </div>
-      </div >
-<!-- ========================================================== -->
-<div style="background-color: rgb(205, 217, 218);">
-    <div class="container" >
-        <div class="row"  >
-            <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 110px;">
-                <h1>MIRROR SHOW YOUR <br> TRUE SELF</h1>
-                <p style="font-size: 23px;">We create the design that you dream of <br> and make it alive</p>
-                <p style="color: rgb(79, 77, 77);">“Thinking about design is hard, but not thinking about it can be disastrous.”</p>
-               </div>
-             
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="{% static 'minimog/modern4.webp' %}" class="img-fluid" height="100px" width="100%" style="margin-top:20px;margin-bottom: 20px;" alt="...">
-          </div>
-         
-        </div>
-      </div>
-    
-    </div>
+  <div class="card bg-dark text-white">
+    <img src="{% static 'minimog/new3.jpg' %}" class="card-img" height="600px" width="100%" alt="...">
+    <div class="card-img-overlay"
+      style="text-align: right;margin-top: 90px;margin-right: 150px;color: rgb(16, 2, 2);">
+      <h1 class="card-title" style="font-family: 'Times New Roman', Times, serif;"> <b> MIRROR SHOW YOUR <br> TRUE SELF</b></h1>
+      <p class="card-text" style="font-size: 23px;">We create the design that you <br> dream of and make it alive</p>
 
-<!-- ================================== -->
-<div class="container">
-    <div class="row" style="margin-top: 20px;">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-      <img src="{% static 'minimog/f1.webp' %}" height="300px" width="100%" style="margin-left:-40px;" alt="">
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <img src="{% static 'minimog/modern5.webp' %}" height="300px" width="100%" style="margin-left:-20px;" alt="">
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <img src="{% static 'minimog/f2.webp' %}" height="300px" width="100%" style="margin-left:10px;" alt="">
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <img src="{% static 'minimog/f3.jpg' %}" height="300px" width="100%" style="margin-left: 30px;margin-right: -30px;" alt="">
-      </div>
     </div>
   </div>
-       <!-- ============================================================================================================================= -->
+  <!-- =========================================================== -->
+
+  <!-- ========================================================== -->
+  <div style="background-color: rgb(205, 217, 218);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12" style="margin-top: 110px;">
+          <h1 style="font-family: 'Times New Roman', Times, serif;">MIRROR SHOW YOUR <br> TRUE SELF</h1>
+          <p style="font-size: 23px;">We create the design that you dream of <br> and make it alive</p>
+          <p style="color: rgb(79, 77, 77);">“Thinking about design is hard, but not thinking about it can be
+            disastrous.”</p>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="{% static 'minimog/modern4.webp' %}" class="img-fluid" height="100px" width="100%"
+            style="margin-top:20px;margin-bottom: 20px;" alt="...">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ================================== -->
+  <div class="container">
+    <div class="row" style="margin-top: 20px;">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+        <img src="{% static 'minimog/f1.webp' %}" height="auto" width="100%" alt="">
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+        <img src="{% static 'minimog/modern5.webp' %}" height="auto" width="100%" alt="">
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+        <img src="{% static 'minimog/f2.webp' %}" height="auto" width="100%" alt="">
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+        <img src="{% static 'minimog/f3.jpg' %}" height="auto" width="100%" alt="">
+      </div>
+
+    </div>
+  </div>
+  <!-- ============================================================================================================================= -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"></script>
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 
-{% endblock %}
+  {% endblock %}
 </body>
+
 </html>
